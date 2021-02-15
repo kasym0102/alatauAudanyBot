@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="alatauBotTest@localhost" uuid="243c1cf1-9653-40f5-92a8-cc4ab1e8e714">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/alatauBotTest</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="alatauBot" uuid="d3f26a89-84b3-4d4b-bdf9-8f5f1ed03aa3">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:~/alatauBot</jdbc-url>
+    </data-source>
+  </component>
+</project>
